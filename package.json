@@ -1,0 +1,32 @@
+{
+  "name": "androidapi31parallelrepro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "e2e-build": "detox build -c",
+    "e2e-run": "detox test -c"
+  },
+  "dependencies": {
+    "react": "18.0.0",
+    "react-native": "0.69.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "detox": "^20.1.0",
+    "eslint": "^7.32.0",
+    "jest": "^29",
+    "metro-react-native-babel-preset": "^0.73.6",
+    "react-test-renderer": "18.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
